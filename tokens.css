@@ -1,0 +1,61 @@
+/*
+ * Lunar tokens.css
+ * Shared design tokens and semantic variables used throughout the theme.
+ * These values form the visual foundation for spacing, surfaces, motion, and focus states.
+ */
+
+:root {
+  /* Brand color system */
+  --lunar-accent: #8B5CF6;
+  --lunar-accent-strong: #A855F7;
+  --lunar-accent-soft: #C084FC;
+  --lunar-accent-muted: rgba(139, 92, 246, 0.16);
+
+  /* Neutral surfaces */
+  --lunar-bg-0: #0D0C12;
+  --lunar-bg-1: #111118;
+  --lunar-bg-2: #17141F;
+  --lunar-bg-3: #211A2E;
+  --lunar-bg-4: #2A2138;
+
+  /* Text hierarchy */
+  --lunar-text-0: #F5F5FF;
+  --lunar-text-1: #D8D4EA;
+  --lunar-text-2: #AAA4C2;
+  --lunar-text-3: #7F7A98;
+
+  /* Semantic surfaces */
+  --lunar-surface-raised: color-mix(in srgb, var(--lunar-bg-2) 92%, white 8%);
+  --lunar-surface-overlay: color-mix(in srgb, var(--lunar-bg-3) 86%, black 14%);
+  --lunar-surface-hover: rgba(255, 255, 255, 0.045);
+  --lunar-surface-active: rgba(139, 92, 246, 0.18);
+  --lunar-surface-muted: rgba(255, 255, 255, 0.03);
+
+  /* Borders and focus */
+  --lunar-stroke-subtle: rgba(255, 255, 255, 0.06);
+  --lunar-stroke-strong: rgba(255, 255, 255, 0.12);
+  --lunar-focus-ring: rgba(192, 132, 252, 0.24);
+
+  /* Spacing scale */
+  --lunar-space-1: 4px;
+  --lunar-space-2: 8px;
+  --lunar-space-3: 10px;
+  --lunar-space-4: 12px;
+  --lunar-space-5: 16px;
+  --lunar-space-6: 20px;
+
+  /* Radii */
+  --lunar-radius-sm: 8px;
+  --lunar-radius-md: 10px;
+  --lunar-radius-lg: 14px;
+  --lunar-radius-pill: 999px;
+
+  /* Motion */
+  --lunar-transition-fast: 150ms ease-out;
+  --lunar-transition-medium: 220ms ease-out;
+
+  /* Elevation */
+  --lunar-shadow-soft: 0 10px 24px rgba(0, 0, 0, 0.24);
+  --lunar-shadow-strong: 0 18px 38px rgba(0, 0, 0, 0.32);
+  --lunar-shadow-ambient: 0 2px 10px rgba(0, 0, 0, 0.16);
+}
